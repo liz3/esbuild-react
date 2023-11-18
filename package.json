@@ -1,0 +1,25 @@
+{
+  "name": "esbuild-react",
+  "version": "1.0.0",
+  "description": "A simple react boilerplate",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./build.mjs",
+    "dev": "./build.mjs --dev"
+  },
+  "keywords": [
+    "react",
+    "esbuild"
+  ],
+  "author": "Liz3",
+  "license": "gpl-2.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.5",
+    "esbuild-plugin-copy": "^2.1.1"
+  }
+}
